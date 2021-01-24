@@ -5,4 +5,4 @@ We have one speaker in box and a lot of enthusiasm.
 
 The project covers PCB design from component selection and simulations to layout and printed circuit board fabrication.
 
-Wish us luck.
+Wish us luck).
