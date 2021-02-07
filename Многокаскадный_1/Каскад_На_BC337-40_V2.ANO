@@ -1,0 +1,133 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.4 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                   AC Analysis of Каскад_На_BC337-40_V2                   ***
+***                           04.02.2021 18:13:48                            ***
+********************************************************************************
+Limits
+======
+Frequency Range          Log 20k,20
+Number of Points         9000
+Temperature              Linear 27
+Maximum Change %         5
+Noise Input              NONE
+Noise Output             2
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Auto Scale Ranges        On
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             8.509   2             1.370   3           693.318m 
+4            14.800   5             0.000   6             0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q1
+Using model:       BC337_40
+
+Beta Terms:
+BETADC             515.230 
+BETAAC             513.647 
+
+Capacitance Terms:
+CPI                121.167p
+CMU                  4.472p
+CBX                  0.000 
+CJS                  0.000 
+
+Conductance Terms:
+GM                 122.687m
+
+Current Terms:
+IB                   6.105u
+IC                   3.145m
+
+Resistance Terms:
+RPI                  4.187K
+RX                   0.000 
+RO                  34.063K
+
+Voltage Terms:
+VBE                676.259m
+VBC                 -7.140 
+VCE                  7.816 
+
+Frequency Terms:
+FT               155.416MEG
+
+Power DC Terms:
+PD                  24.588m
+PS                   0.000 
+
+DC Pin Currents:
+Ib                   6.105u
+Ic                   3.145m
+Ie                  -3.151m
+Is                   0.000 
+
+Condition:
+State                   LIN
+
+Device Variables:
+area                 1.000 
+vbe                  0.000 
+vce                  0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1             R4             R5             R7
+V                     6.291        -13.430        693.318m         0.000 
+Power DC Terms:
+PD                   19.786m        81.989u         2.185m         0.000 
+
+DC Pin Currents:
+Ir                    3.145m        -6.105u         3.151m         0.000 
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1             C2
+V                     1.370         -8.509 
+Power DC Terms:
+PS                    0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000 
+
+Device Variables:
+ic                    0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1             V2
+V                   14.800          0.000 
+Power DC Terms:
+PG                  46.641m         0.000 
+
+DC Pin Currents:
+ISource             -3.151m         0.000 
+
+
